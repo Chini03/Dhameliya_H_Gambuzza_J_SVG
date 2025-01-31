@@ -1,0 +1,16 @@
+/* Layout Rules */
+
+.flex-hor-con {
+    display: flex;
+    height: max-content;
+}
+
+.flex-ver-con {
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+}
+
+object {
+    height: 250px;
+}
