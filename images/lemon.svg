@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 191.02 330.69">
+<svg id="mainLemon" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 191.02 330.69">
   <defs>
     <style>
       .cls-1 {
@@ -26,7 +26,29 @@
         fill: #ccc;
         opacity: .5;
       }
+
+      <!-- Interactions added by me -->
+
+      #mainLemon:hover {
+        transform: rotate(360deg);
+        filter: invert(20%)
+      }
+
+      #mainLemon{
+        transition: all 0.7s ease;
+      }
+
     </style>
+    <script>
+      const svg = document.querySelector("#mainLemon");
+
+      function printId() {
+        console.log(this.id);
+      }
+
+      svg.addEventListener("click", printId);
+    </script>
+
     <radialGradient id="radial-gradient" cx="105.03" cy="189.98" fx="105.03" fy="189.98" r="106.02" gradientUnits="userSpaceOnUse">
       <stop offset=".34" stop-color="#ffffad"/>
       <stop offset=".75" stop-color="#f3ff6a"/>
