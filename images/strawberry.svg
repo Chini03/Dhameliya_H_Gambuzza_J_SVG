@@ -40,9 +40,17 @@
       transition: all 0.7s ease;
        transform-origin: 50%;
     }
-
-
     </style>
+
+    <script>
+      const svg = document.querySelector("#strawberry");
+
+      function printId() {
+        console.log(this.id);
+      }
+
+      svg.addEventListener("click", printId);
+    </script>
     <radialGradient id="radial-gradient" cx="107.35" cy="180.38" fx="107.35" fy="180.38" r="114.51" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#df7373"/>
       <stop offset=".24" stop-color="#dc6261"/>

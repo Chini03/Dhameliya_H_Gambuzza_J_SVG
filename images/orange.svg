@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 249.08 249.08">
+<svg id="main-orange" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 249.08 249.08">
   <defs>
     <style>
       .cls-1 {
@@ -15,7 +15,7 @@
       }
     <!-- Interactions added to the svg-->
 
-    #Layer_1:hover #orange-triangules{
+    #main-orange:hover #orange-triangules{
 
       transform: rotate(130deg);
 
@@ -25,10 +25,18 @@
       transition: all 0.7s ease;
       transform-origin: 50%;
     }
-
-
-
     </style>
+
+    <script>
+      const svg = document.querySelector("#main-orange");
+
+      function printId() {
+        console.log(this.id);
+      }
+
+      svg.addEventListener("click", printId);
+    </script>
+
     <radialGradient id="radial-gradient" cx="124.54" cy="124.54" fx="124.54" fy="124.54" r="114.46" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#ffee96"/>
       <stop offset="1" stop-color="#ffeea9"/>
