@@ -13,6 +13,21 @@
       .cls-3 {
         fill: #ff9c00;
       }
+    <!-- Interactions added to the svg-->
+
+    #Layer_1:hover #orange-triangules{
+
+      transform: rotate(130deg);
+
+    }
+
+    #orange-triangules{
+      transition: all 0.7s ease;
+      transform-origin: 50%;
+    }
+
+
+
     </style>
     <radialGradient id="radial-gradient" cx="124.54" cy="124.54" fx="124.54" fy="124.54" r="114.46" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#ffee96"/>

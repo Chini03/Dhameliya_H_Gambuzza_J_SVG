@@ -21,6 +21,28 @@
       .cls-5 {
         fill: #00422d;
       }
+
+
+ <!-- Interactions added to the svg-->
+    #watermelon:hover{
+    transform: rotate(220deg);}
+
+     #watermelon{
+      transition: all 0.7s ease;
+      transform-origin: 50%;
+    }
+
+    #watermelon:hover #seeds{ 
+       transform: scale(0.7);
+      filter: invert(70%)
+      }
+
+
+     #seeds{
+      transition: all 0.7s ease;
+      transform-origin: 50%;
+    }
+
     </style>
     <linearGradient id="linear-gradient" x1="137.68" y1="0" x2="137.68" y2="259.48" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#ff9b85"/>
