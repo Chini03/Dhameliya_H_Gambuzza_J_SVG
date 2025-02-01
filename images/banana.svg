@@ -20,7 +20,7 @@
 
       <!-- Interactions added by me -->
 
-      #banana {
+      #banana, #top, #bottom, #highlight, #stub, #stem {
         transition: all 0.7s ease;
       }
       #banana:hover #body #top{
