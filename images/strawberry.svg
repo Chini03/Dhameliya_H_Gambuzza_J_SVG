@@ -28,6 +28,20 @@
         fill: #b3b3b3;
         opacity: .5;
       }
+
+ <!-- Interactions added to the svg-->
+ 
+#strawberry:hover{
+  transform: scale(0.7);
+  filter: invert(70%)
+}
+
+ #strawberry{
+      transition: all 0.7s ease;
+       transform-origin: 50%;
+    }
+
+
     </style>
     <radialGradient id="radial-gradient" cx="107.35" cy="180.38" fx="107.35" fy="180.38" r="114.51" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#df7373"/>
