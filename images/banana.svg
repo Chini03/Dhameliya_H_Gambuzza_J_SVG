@@ -17,7 +17,41 @@
       .cls-4 {
         fill: #ffeea4;
       }
+
+      <!-- Interactions added by me -->
+
+      #banana {
+        transition: all 0.7s ease;
+      }
+      #banana:hover #body #top{
+        fill: rgb(202, 249, 183);
+      }
+      #banana:hover #body #bottom{
+        fill: rgb(202, 249, 183);
+      }
+
+      #banana:hover #body #highlight{
+        fill: black;
+      }
+
+      #banana:hover #stub{
+        fill: pink;
+      }
+
+      #banana:hover #stem{
+        fill: pink;
+      }
+
     </style>
+    <script>
+      const svg = document.querySelector("#banana");
+
+      function printId() {
+        console.log(this.id);
+      }
+
+      svg.addEventListener("click", printId);
+    </script>
   </defs>
   <path id="stub" class="cls-1" d="M1178.93,426.91c21.59-6.75,44.74-3.18,59.61,10.51,21.36,19.67,23.54,58.26-.49,86.42l-59.12-96.93Z"/>
   <path id="stem" class="cls-1" d="M230.93,187.09s-51.2-84.08-139.08-116.95L27.33,0,0,23.12l48.35,87.24s-6.74,110.26,23.51,160.82l159.08-84.1Z"/>
