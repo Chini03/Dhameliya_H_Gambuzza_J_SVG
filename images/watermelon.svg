@@ -44,6 +44,17 @@
     }
 
     </style>
+
+    <script>
+      const svg = document.querySelector("#watermelon");
+
+      function printId() {
+        console.log(this.id);
+      }
+
+      svg.addEventListener("click", printId);
+    </script>
+
     <linearGradient id="linear-gradient" x1="137.68" y1="0" x2="137.68" y2="259.48" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#ff9b85"/>
       <stop offset=".71" stop-color="#ee6055"/>
