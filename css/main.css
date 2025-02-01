@@ -3,16 +3,22 @@
 .flex-hor-con {
     display: flex;
     height: max-content;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 80px 0;
 }
 
 .flex-ver-con {
     display: flex;
     flex-direction: column;
     height: max-content;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 object {
     height: 250px;
+    width: 250px;
 }
 
 body{
