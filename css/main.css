@@ -1,3 +1,10 @@
+/* Resets */
+
+body, p, h1, h2 {
+    margin: 0px auto; 
+    padding: 0px;
+}
+
 /* Layout Rules */
 
 .flex-hor-con {
@@ -26,14 +33,15 @@ font-family: Arial, Helvetica, sans-serif;
 font-size: 20px;
 }
 
-#web-title {
+h1 {
     text-align: center;
     width: 100%;
-    margin: 40px;
-color: rgb(201, 102, 102);}
+    padding: 40px;
+    color: rgb(201, 102, 102);
+}
 
 
-#web-text {
+body section:first-child {
     text-align: center;
     padding-left: 80px;
     padding-right: 80px;
