@@ -1,3 +1,5 @@
 assets/
 **/.DS_Store
-vscode/
+/.vscode
+
+# remove vscode files from cash if the igtignore not working - git rm --cached .vscode/settings.json
