@@ -24,4 +24,3 @@ Juliana Gambuzza
 ## License
 MIT
 
-## References
