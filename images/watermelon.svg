@@ -25,23 +25,18 @@
 
  <!-- Interactions added to the svg-->
     #watermelon:hover{
-    transform: rotate(220deg);}
+      filter: grayscale(1);
+    }
 
      #watermelon{
       transition: all 0.7s ease;
-      transform-origin: 50%;
+      <!-- transform-origin: 50%; -->
     }
 
-    #watermelon:hover #seeds{ 
-       transform: scale(0.7);
-      filter: invert(70%)
-      }
+ 
 
 
-     #seeds{
-      transition: all 0.7s ease;
-      transform-origin: 50%;
-    }
+
 
     </style>
 
