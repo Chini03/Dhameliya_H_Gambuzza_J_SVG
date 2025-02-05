@@ -29,13 +29,45 @@
 
       <!-- Interactions added by me -->
 
-      #mainLemon:hover {
-        transform: rotate(360deg);
-        filter: invert(20%)
+      #mainLemon:hover #leave2{
+        box-shadow: 0px 0px 4px 2px gray;
+        transform: rotate(360deg)
       }
 
-      #mainLemon{
-        transition: all 0.7s ease;
+      #leave2{
+        transition: all 1s ease;
+        transform-origin: 50%;
+      }
+
+      #mainLemon:hover #leave1{
+        box-shadow: 0px 0px 4px 2px gray;
+        transform: rotate(360deg)
+      }
+
+      #leave1{
+        transition: all 1s ease;
+        transform-origin: 50%;
+      }
+
+      
+      #mainLemon:hover #leave-shadow{
+        box-shadow: 0px 0px 4px 2px gray;
+        transform: rotate(360deg)
+      }
+
+      #leave-shadow{
+        transition: all 1s ease;
+        transform-origin: 50%;
+      }
+
+      #mainLemon:hover #leave-shadow2{
+        box-shadow: 0px 0px 4px 2px gray;
+        transform: rotate(360deg)
+      }
+
+      #leave-shadow2{
+        transition: all 1s ease;
+        transform-origin: 50%;
       }
 
     </style>
